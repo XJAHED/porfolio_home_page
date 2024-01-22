@@ -3,6 +3,7 @@
     #home_bg{
         position: fixed;
     }
+    
     .banner{
         background-position: center;
     }
@@ -60,7 +61,7 @@
        background-position: center;
     }
     #home_bg .profile{
-        margin: -950px 0 0 0;
+        margin:  0;
     }
     #home_bg .profile img{
         width: 200px;
@@ -101,15 +102,50 @@
 
 
 /* 320-374 */
-@media (min-width:320px) and (max-width:374px){
+@media (min-width:320px) and (max-width:380px){
     #home_bg .profile img{
-        margin: 0 60px;
+        margin: 0 70px;
+        width: 150px;
+        height: 160px;
+    }
+    #home_bg .text{
+        margin: 215px 0 0 0;
+    }
+    #home_bg .text p span{
+        font-size: 22px;
+    }
+    #home_bg .text h4{
+        font-size: 20px;
+    }
+    #home_bg .text h3{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    #home_bg .text h5{
+        font-size: 20px;
+    }
+    #home_bg .text h5 span{
+        font-size: 14px;
+    }
+    #home_bg .text .text_amin{
+        padding: 0;
+    }
+    #home_bg .text .text_amin p{
+        padding: 0;
+        font-size: 18px;
+        margin: 3px 0;
+    }
+    #home_bg .text .bio{
+        line-height: 30px;
+    }
+    #home_bg .text .bn5{
+        margin: 5px 15px;
     }
 }
 /* 375-425 */
-@media (min-width:375px) and (max-width:435px){
+@media (min-width:380px) and (max-width:435px){
     #home_bg .profile img{
-        
+        margin: 0 85px;
     }
 }
 
@@ -120,5 +156,12 @@
     }
     #home_bg .link{
         display: none;
+    }
+    .banner_lg{
+        display: none;
+    }
+    .banner_sm{
+        background-image: url(../img/pxfuel.jpg);
+        display: block;
     }
 }
