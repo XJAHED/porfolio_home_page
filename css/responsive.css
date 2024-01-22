@@ -6,6 +6,9 @@
     #banner{
         display: none;
     }
+    #home_bg .profile{
+        margin: -950px 0 0 0;
+    }
     #home_bg .profile img{
         width: 200px;
         height: 220px;
@@ -15,7 +18,7 @@
     }
 
     #home_bg .text{
-        margin: -300px 0;
+        margin: -670px 0;
         padding: 0;
     }
     #home_bg .text p span{
@@ -52,6 +55,9 @@
     #banner{
         display: none;
     }
+    #home_bg .profile{
+        margin: -950px 0 0 0;
+    }
     #home_bg .profile img{
         width: 200px;
         height: 220px;
@@ -61,7 +67,7 @@
     }
 
     #home_bg .text{
-        margin: -300px 0;
+        margin: -670px 0;
         padding: 0;
     }
     #home_bg .text p span{
