@@ -1,0 +1,114 @@
+@media (min-width:320px) and (max-width:435px){
+   
+    #home_bg{
+        position: fixed;
+    }
+    #banner{
+        display: none;
+    }
+    #home_bg .profile img{
+        width: 200px;
+        height: 220px;
+        border-radius: 16%;
+        margin: 0 85px;
+        /* display: none; */
+    }
+
+    #home_bg .text{
+        margin: -300px 0;
+        padding: 0;
+    }
+    #home_bg .text p span{
+        font-size: 25px;
+    }
+    #home_bg .text h4{
+        font-size: 23px;
+    }
+    #home_bg .text h3{
+        font-size: 23px;
+    }
+    #home_bg .text h5{
+        font-size: 23px;
+    }
+    #home_bg .text h5 span{
+        font-size: 16px;
+    }
+    #home_bg .text .text_amin{
+        padding: 0;
+    }
+    #home_bg .text .text_amin p{
+        padding: 0;
+        font-size: 20px;
+    }
+    #home_bg .text .bio{
+        padding: 0;
+    }
+}
+
+@media (min-width:436px) and (max-width:767px){
+    #home_bg{
+        position: fixed;
+    }
+    #banner{
+        display: none;
+    }
+    #home_bg .profile img{
+        width: 200px;
+        height: 220px;
+        border-radius: 16%;
+        margin: 0 85px;
+        /* display: none; */
+    }
+
+    #home_bg .text{
+        margin: -300px 0;
+        padding: 0;
+    }
+    #home_bg .text p span{
+        font-size: 25px;
+    }
+    #home_bg .text h4{
+        font-size: 23px;
+    }
+    #home_bg .text h3{
+        font-size: 23px;
+    }
+    #home_bg .text h5{
+        font-size: 23px;
+    }
+    #home_bg .text h5 span{
+        font-size: 16px;
+    }
+    #home_bg .text .text_amin{
+        padding: 0;
+    }
+    #home_bg .text .text_amin p{
+        padding: 0;
+        font-size: 20px;
+    }
+}
+
+
+
+/* 320-374 */
+@media (min-width:320px) and (max-width:374px){
+    #home_bg .profile img{
+        margin: 0 76px;
+    }
+}
+/* 375-425 */
+@media (min-width:375px) and (max-width:435px){
+    #home_bg .profile img{
+        margin: 0 120px;
+    }
+}
+
+
+@media ( min-width:320px) and (max-width:991px){
+    #res_nav{
+        display: block;
+    }
+    #home_bg .link{
+        display: none;
+    }
+}
