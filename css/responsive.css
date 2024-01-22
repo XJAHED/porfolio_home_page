@@ -7,19 +7,23 @@
         display: none;
     }
     #home_bg .profile{
-        margin: -950px 0 0 0;
+        /* margin: -660px 0 0 -15px; */
+        position: absolute;
+        top: 60px;
+        margin: 0;
     }
     #home_bg .profile img{
         width: 200px;
         height: 220px;
         border-radius: 16%;
         margin: 0 85px;
-        /* display: none; */
     }
 
     #home_bg .text{
-        margin: -670px 0;
-        padding: 0;
+        /* position: absolute;
+        top: 380px; */
+        padding: 0 10px;
+        margin: 350px 0 0 0;
     }
     #home_bg .text p span{
         font-size: 25px;
